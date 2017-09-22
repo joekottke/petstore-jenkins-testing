@@ -11,7 +11,7 @@
 # You can learn more here: https://pantsbuild.github.io/setup
 # ====================================================================
 
-set -ex
+set -e
 
 PYTHON=${PYTHON:-$(which python2.7)}
 
