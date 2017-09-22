@@ -9,7 +9,7 @@ from ..util import deserialize_date, deserialize_datetime
 def delete_order(orderId):
     """
     Delete purchase order by ID
-    For valid response try integer IDs with positive integer value.         Negative or non-integer values will generate API errors
+    For valid response try integer IDs with positive integer value. Negative or non-integer values will generate API errors
     :param orderId: ID of the order that needs to be deleted
     :type orderId: int
 
@@ -31,7 +31,7 @@ def get_inventory():
 def get_order_by_id(orderId):
     """
     Find purchase order by ID
-    For valid response try integer IDs with value &gt;&#x3D; 1 and &lt;&#x3D; 10.         Other values will generated exceptions
+    For valid response try integer IDs with value &gt;&#x3D; 1 and &lt;&#x3D; 10. Other values will generated exceptions
     :param orderId: ID of pet that needs to be fetched
     :type orderId: int
 
